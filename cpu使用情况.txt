@@ -1,0 +1,40 @@
+
+usage: CPU usage 5000ms(from 23:23:33.000 to 23:23:38.000):
+System TOTAL: 2.1% user + 16% kernel + 9.2% iowait + 0.2% irq + 0.1% softirq + 72% idle
+CPU Core: 8
+Load Average: 8.74 / 7.74 / 7.36
+
+Process:com.sample.app 
+  50% 23468/com.sample.app(S): 11% user + 38% kernel faults:4965
+
+Threads:
+  43% 23493/singleThread(R): 6.5% user + 36% kernel faults：3094
+  3.2% 23485/RenderThread(S): 2.1% user + 1% kernel faults：329
+  0.3% 23468/.sample.app(S): 0.3% user + 0% kernel faults：6
+  0.3% 23479/HeapTaskDaemon(S): 0.3% user + 0% kernel faults：982
+  ...
+  
+  
+ 
+ 
+ 
+张邵文例子和他的手机log
+
+E/ProcessCpuTracker: CPU usage from 5187ms to 121ms ago (2018-12-28 08:28:27.186 to 2018-12-28 08:28:32.252):
+    40% 24155/com.sample.processtracker(R): 14% user + 26% kernel / faults: 5286 minor
+    thread stats:
+    35% 24184/SingleThread(S): 11% user + 24% kernel / faults: 3055 minor
+    2.1% 24174/RenderThread(S): 1.3% user + 0.7% kernel / faults: 384 minor
+    1.5% 24155/.processtracker(R): 1.1% user + 0.3% kernel / faults: 95 minor
+    0.1% 24166/HeapTaskDaemon(S): 0.1% user + 0% kernel / faults: 1070 minor
+
+    100% TOTAL(): 3.8% user + 7.8% kernel + 11% iowait + 0.1% irq + 0% softirq + 76% idle
+    Load: 6.31 / 6.52 / 6.66
+  
+  
+  
+  https://developer.android.google.cn/training/articles/user-data-ids?hl=zh-cn
+  
+  
+  
+  
